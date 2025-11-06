@@ -181,6 +181,30 @@ body {
 
 
 
+.team-member, .alumni-item {
+    position: relative;
+    padding-right: 40px; /* Make space for the icon */
+}
+
+.linkedin-link {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    transition: transform 0.2s ease;
+}
+
+.linkedin-link:hover {
+    transform: translateY(-50%) scale(1.1);
+}
+
+.linkedin-link svg {
+    display: block;
+}
+
+
+
+
 .profile-card h3 {
     font-size: 1.5rem;
     color: var(--color-primary-dark);
