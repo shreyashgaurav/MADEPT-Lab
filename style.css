@@ -215,17 +215,18 @@ body {
 
 
 .apply-btn {
-    background-color: #4CAF50;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white !important;
     padding: 8px 20px;
-    border-radius: 5px;
+    border-radius: 25px;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin-left: 10px;
 }
 
 .apply-btn:hover {
-    background-color: #45a049;
-    transform: scale(1.05);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
 }
 
 
