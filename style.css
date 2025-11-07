@@ -296,6 +296,46 @@ body {
 }
 
 /* ========== NEWS SECTION ========== */
+
+
+
+
+
+.news-container {
+    max-height: 400px; /* Adjust this height as needed */
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: thin;
+    scrollbar-color: #667eea #f1f1f1;
+}
+
+/* Custom scrollbar for webkit browsers (Chrome, Safari, Edge) */
+.news-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+.news-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 10px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+    background: #764ba2;
+}
+
+
+
+
+
+
+
+
+
 .news-section {
     padding: var(--spacing-md) 0;
     background: var(--color-bg-tertiary);
